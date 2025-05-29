@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    background-color: #00d29c;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+}
+.product-card{
+    display: flex;
+
+}
+.product-image img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.product-image{
+    background-color: #bdf269;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    
+}
+
+.thumbnail-row img{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.product-details{
+    margin-left:30px;
+    max-width:300px;
+
+
+}
+.product-details h2{
+    margin-top: 0;
+    color:#333;
+
+
+}
+.code{
+    color: gray;
+    font-size: 0.9rem;
+
+}
+.price{
+    font-size: 2rem;
+    color: #e53935;
+    margin: 10px 0;
+}
+.label{
+    font-weight: bold;
+    margin: 20px 0 10px;
+    color:#888;
+    font-size: 0.9rem;
+
+}
+.colors {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.color {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.color.green { background-color: #bdf269; }
+.color.yellow { background-color: #ffe600; }
+.color.orange { background-color: #ffa726; }
+.color.red { background-color: #e53935; }
+
+.color.active {
+  border: 2px solid #555;
+}
+.benefits {
+  padding-left: 20px;
+  color: #333;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.add-to-cart {
+  background-color: #e53935;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-to-cart:hover {
+  background-color:#d32f2f;
+}
